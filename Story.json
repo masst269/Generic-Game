@@ -1,9 +1,35 @@
 {
-  "PageNumber": {
-    "Scene Title": "Luke Skywalker",
-    "Story": "Jedi Knight",
-    "Button-A": 24,
-    "Button-B": 25,
-    "Button-C": 26,
-  },
+"innMeet1": {
+  "buttonText": "START",
+  "text": "Kings scribe asks you for aid ",
+  "next": ["innMeet2", "innMeetFail1", "innMeetFail2"],
+},
+"innMeet2": {
+  "buttonText": "Accept his call to aid",
+  "text": "Kings scribe delights, gives map, start",
+  "next": ["innMeetFail2-1", "travel1", "innMeetFail2-2"],
+},
+"innMeetFail1-1": {
+  "buttonText": "Refuse the peasant",
+  "text": "You died",
+},
+"innMeetFail1-2": {
+  "buttonText": "Kill the messenger",
+  "text": "You died",
+},
+
+"innMeetFail2-1": {
+  "buttonText": "You don't need a map!",
+  "text": "You died",
+},
+
+"innMeetFail2-2": {
+  "buttonText": "Go on your quest tomorrow",
+  "text": "You died",
+},
+
+"youDied": { 
+  "buttonText": "You Died",
+  "text": "You died",
+},
 }
