@@ -2,7 +2,7 @@
 "innMeet1": {
   "buttonText": "START",
   "text": "Kings scribe asks you for aid ",
-  "next": ["innMeet2", "innMeetFail1", "innMeetFail2"],
+  "next": ["innMeet2", "innMeetFail1-1", "innMeetFail1-2"],
 },
 "innMeet2": {
   "buttonText": "Accept his call to aid",
@@ -27,6 +27,8 @@
   "buttonText": "Go on your quest tomorrow",
   "text": "You died",
 },
+
+
 
 "youDied": { 
   "buttonText": "You Died",
