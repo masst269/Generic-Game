@@ -12,26 +12,67 @@
 "innMeetFail1-1": {
   "buttonText": "Refuse the peasant",
   "text": "You died",
+  "next": ["youDied", "youDied", "youDied"],
 },
 "innMeetFail1-2": {
   "buttonText": "Kill the messenger",
   "text": "You died",
+  "next": ["youDied", "youDied", "youDied"],
 },
 
 "innMeetFail2-1": {
   "buttonText": "You don't need a map!",
   "text": "You died",
+  "next": ["youDied", "youDied", "youDied"],
 },
 
 "innMeetFail2-2": {
   "buttonText": "Go on your quest tomorrow",
   "text": "You died",
+  "next": ["youDied", "youDied", "youDied"],
+},
+
+"travel1": {
+  "buttonText": "You begin your journey on the path!",
+  "text": "Do you go left or right?",
+  "next": ["rightOuterForest1", "youDied", "leftOuterForest1"],
+},
+
+"rightOuterForest1": {
+  "buttonText": "You choose the right path",
+  "text": "Its a calm stroll through the beautiful forest",
+  "next": ["youDied", "youDied", "grove1"],
+},
+
+"grove1": {
+  "buttonText": "Continue down to a grove ahead",
+  "text": "You meet a wizard!",
+  "next": ["youDied", "grove2", "youDied"]
+},
+
+"grove2": {
+  "buttonText": "Greet the wizard",
+  "text": "The wizard asks you a riddle!",
+  "next": ["youDied", "youDied", "grove3"],
+},
+
+"grove3": {
+  "buttonText": "Solve the riddle",
+  "text": "The wizard is pleased! The wizard asks you to help in his studies",
+  "next": ["grove 4", "youDied", "deepForest1"]
+},
+
+"grove4": {
+  "buttonText": "Agree to help",
+  "text": "its a impossible question! What do you do?",
+  "next": ["deepForest1", "innMeet1", "cavern1"],
 },
 
 
 
-"youDied": { 
+"youDied": {
   "buttonText": "You Died",
   "text": "You died",
+  "next": ["youDied", "youDied", "youDied"],
 },
 }
