@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Render the index page for the root URL path ('/').
 app.get('/', function (req, res) {
-  res.render('index-page'});
+  res.render('index-page');
 });
 
 /*
