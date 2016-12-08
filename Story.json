@@ -61,6 +61,14 @@
   "text": "The wizard is pleased! The wizard asks you to help in his studies",
   "next": ["grove 4", "youDied", "deepForest1"]
 },
+  
+  /* The Riddle
+
+    Q: What can run, but never walks? Has a mouth, but never talks? Has a head, but never weeps? Has a bed, but never sleeps?
+
+    A: A river.
+
+*/
 
 "grove4": {
   "buttonText": "Agree to help",
