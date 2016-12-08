@@ -1,0 +1,27 @@
+{{> header}}
+    <main>
+
+      <section class="title">
+        <!--Don't worry to much about this part, it's just going to be
+        the title for the scene if we decide to add one.-->
+        {{#each Story}}
+        <h2>{{Scene Title}}</h2>
+        <p>{{Story}}</p>
+      </section>
+
+    <div class="start-button-container">
+        <button id="story-button">Hello!</button>
+      </div>
+
+      <div>
+        <div class="player-action">
+          <ul class="actions">
+            <li class="action-button"><a href="/">{{Action A}}</a></li>
+            <li class="action-button"><a href="#">{{Action B}}</a></li>
+            <li class="action-button"><a href="#">{{Action C}}</a></li>
+          </ul>
+        </div>
+      </div>
+        {{/each}}
+    </main>
+{{> footer}}

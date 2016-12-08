@@ -1,0 +1,31 @@
+{{> header}}
+
+
+  <main>
+
+      <section>
+        <div class="name-box">
+        <label for="enter-name">Enter Name</label>
+        <input type="text" id="todo-input-who">
+        </div>
+      </section>
+        <!--This is where the times and names of player will be shown
+      it should be centered. Right there is just one item hard coded
+    since to implement the leader board I need to work with the others
+  to make it dynamic.-->
+      <section>
+        <!-- this text should be bolded and centered-->
+        <h1>LeaderBoard Times:</h1>
+        <ol>
+          <!--this should left aligned-->
+          <li>{{name}}<a>{{time}}</a></li>
+        </ol>
+        <div class="reset-game">
+          <button id="reset-button">Reset</button>
+        </div>
+      </section>
+
+  </main>
+
+
+{{>footer}}
